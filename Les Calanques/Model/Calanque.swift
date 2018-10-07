@@ -9,7 +9,7 @@
 import UIKit
 import CoreLocation
 
-class Calanque {
+class Calanque{
     
     private var _nom: String
     private var _desc: String
