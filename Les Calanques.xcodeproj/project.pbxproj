@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		7B32E418216A1E2F0043DBA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B32E417216A1E2F0043DBA1 /* AppDelegate.swift */; };
-		7B32E41A216A1E2F0043DBA1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B32E419216A1E2F0043DBA1 /* FirstViewController.swift */; };
-		7B32E41C216A1E2F0043DBA1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B32E41B216A1E2F0043DBA1 /* SecondViewController.swift */; };
 		7B32E41F216A1E2F0043DBA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B32E41D216A1E2F0043DBA1 /* Main.storyboard */; };
 		7B32E421216A1E330043DBA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B32E420216A1E330043DBA1 /* Assets.xcassets */; };
 		7B32E424216A1E330043DBA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B32E422216A1E330043DBA1 /* LaunchScreen.storyboard */; };
+		7BD85EC4216A33E300382CD3 /* Calanque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD85EC3216A33E300382CD3 /* Calanque.swift */; };
+		7BD85EC6216A35FE00382CD3 /* CalanqueCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD85EC5216A35FE00382CD3 /* CalanqueCollection.swift */; };
+		7BD85EC8216A370E00382CD3 /* ControllerAveTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD85EC7216A370E00382CD3 /* ControllerAveTableView.swift */; };
+		7BD85ECA216A372700382CD3 /* ControllerAvecCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD85EC9216A372700382CD3 /* ControllerAvecCarte.swift */; };
+		7BD85ECC216A374C00382CD3 /* TableViewIntegreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD85ECB216A374C00382CD3 /* TableViewIntegreeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7B32E414216A1E2F0043DBA1 /* Les Calanques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Les Calanques.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B32E417216A1E2F0043DBA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7B32E419216A1E2F0043DBA1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		7B32E41B216A1E2F0043DBA1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		7B32E41E216A1E2F0043DBA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B32E420216A1E330043DBA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B32E423216A1E330043DBA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B32E425216A1E330043DBA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BD85EC3216A33E300382CD3 /* Calanque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calanque.swift; sourceTree = "<group>"; };
+		7BD85EC5216A35FE00382CD3 /* CalanqueCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCollection.swift; sourceTree = "<group>"; };
+		7BD85EC7216A370E00382CD3 /* ControllerAveTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerAveTableView.swift; sourceTree = "<group>"; };
+		7BD85EC9216A372700382CD3 /* ControllerAvecCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerAvecCarte.swift; sourceTree = "<group>"; };
+		7BD85ECB216A374C00382CD3 /* TableViewIntegreeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewIntegreeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		7B32E416216A1E2F0043DBA1 /* Les Calanques */ = {
 			isa = PBXGroup;
 			children = (
+				7BD85EC1216A32E700382CD3 /* View */,
 				7BD85EC0216A32DD00382CD3 /* Model */,
 				7BD85EC2216A32FB00382CD3 /* Controller */,
 				7B32E417216A1E2F0043DBA1 /* AppDelegate.swift */,
@@ -70,7 +77,8 @@
 		7BD85EC0216A32DD00382CD3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7BD85EC1216A32E700382CD3 /* View */,
+				7BD85EC5216A35FE00382CD3 /* CalanqueCollection.swift */,
+				7BD85EC3216A33E300382CD3 /* Calanque.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -85,8 +93,9 @@
 		7BD85EC2216A32FB00382CD3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7B32E41B216A1E2F0043DBA1 /* SecondViewController.swift */,
-				7B32E419216A1E2F0043DBA1 /* FirstViewController.swift */,
+				7BD85EC7216A370E00382CD3 /* ControllerAveTableView.swift */,
+				7BD85EC9216A372700382CD3 /* ControllerAvecCarte.swift */,
+				7BD85ECB216A374C00382CD3 /* TableViewIntegreeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -162,9 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B32E41C216A1E2F0043DBA1 /* SecondViewController.swift in Sources */,
+				7BD85ECC216A374C00382CD3 /* TableViewIntegreeController.swift in Sources */,
 				7B32E418216A1E2F0043DBA1 /* AppDelegate.swift in Sources */,
-				7B32E41A216A1E2F0043DBA1 /* FirstViewController.swift in Sources */,
+				7BD85EC6216A35FE00382CD3 /* CalanqueCollection.swift in Sources */,
+				7BD85ECA216A372700382CD3 /* ControllerAvecCarte.swift in Sources */,
+				7BD85EC8216A370E00382CD3 /* ControllerAveTableView.swift in Sources */,
+				7BD85EC4216A33E300382CD3 /* Calanque.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
