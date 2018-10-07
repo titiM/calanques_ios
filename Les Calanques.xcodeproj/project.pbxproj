@@ -18,6 +18,7 @@
 		7BD85ECC216A374C00382CD3 /* TableViewIntegreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD85ECB216A374C00382CD3 /* TableViewIntegreeController.swift */; };
 		7BD85ECE216A49FF00382CD3 /* CalanqueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD85ECD216A49FF00382CD3 /* CalanqueCell.swift */; };
 		7BD85ED0216A4EC400382CD3 /* ImageRonde.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD85ECF216A4EC400382CD3 /* ImageRonde.swift */; };
+		7BD85ED2216A769B00382CD3 /* CalanqueCellAlternativeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD85ED1216A769B00382CD3 /* CalanqueCellAlternativeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		7BD85ECB216A374C00382CD3 /* TableViewIntegreeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewIntegreeController.swift; sourceTree = "<group>"; };
 		7BD85ECD216A49FF00382CD3 /* CalanqueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCell.swift; sourceTree = "<group>"; };
 		7BD85ECF216A4EC400382CD3 /* ImageRonde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRonde.swift; sourceTree = "<group>"; };
+		7BD85ED1216A769B00382CD3 /* CalanqueCellAlternativeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCellAlternativeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			children = (
 				7BD85ECD216A49FF00382CD3 /* CalanqueCell.swift */,
 				7BD85ECF216A4EC400382CD3 /* ImageRonde.swift */,
+				7BD85ED1216A769B00382CD3 /* CalanqueCellAlternativeTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			files = (
 				7BD85ECC216A374C00382CD3 /* TableViewIntegreeController.swift in Sources */,
 				7B32E418216A1E2F0043DBA1 /* AppDelegate.swift in Sources */,
+				7BD85ED2216A769B00382CD3 /* CalanqueCellAlternativeTableViewCell.swift in Sources */,
 				7BD85ECE216A49FF00382CD3 /* CalanqueCell.swift in Sources */,
 				7BD85EC6216A35FE00382CD3 /* CalanqueCollection.swift in Sources */,
 				7BD85ECA216A372700382CD3 /* ControllerAvecCarte.swift in Sources */,
